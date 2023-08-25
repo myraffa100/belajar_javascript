@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <script>
+
+    //dengan if statement
+ const nilai = 70;
+ let ucapan ;
+
+ if (nilai >= 75) {
+  ucapan ="selamat anda lulus";
+ } else  {
+  ucapan = "silahkan coba lagi";
+ }
+
+ document.writeln(` <p>${ucapan} </p>`)
+
+
+ // dengan ternary operator
+ const nilaiUas = 95;
+ const lulusUas = nilaiUas >= 75 ? "selamat anda lulus" : "silahkan coba lagi";
+
+ document.writeln (`<p> ${lulusUas} </p>`);
+ 
+
+  </script>
+</body>
+</html>
